@@ -13,41 +13,41 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Deliverable 1
 
-#### RandomOverSampler
+#### Random Over Sampling - Naive RandomOverSampler
 
-  * An accuracy score for the model is #####
+  * An accuracy score for the model is **0.8325468421491353**
   * A confusion matrix has been generated
   ![NaiveRandomOverSampler_confusion_matrix](Images/NaiveRandomOverSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
-#### SMOTE
+#### Oversampling - SMOTE
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is **0.8440938486973113**
   * A confusion matrix has been generated
   * ![SMOTEOverSampler_confusion_matrix](Images/SMOTEOverSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
 
-#### ClusterCentroids
+#### Undersampling - ClusterCentroids
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is **0.8203882595930314**
   * A confusion matrix has been generated
   ![ClusterCentroidUnderSampler_confusion_matrix](Images/ClusterCentroidUnderSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
 ### Deliverable 2
 
-#### SMOTEEN
+#### Combination of (Over and Under) Sampling - SMOTEEN 
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is **0.844016280135965**
   * A confusion matrix has been generated
   ![SMOTEENOverUnderSampler_confusion_matrix](Images/SMOTEENOverUnderSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
 ### Deliverable 3
 
-#### Balanced Random Forest Classifier
+#### Ensemble Learners - Balanced Random Forest Classifier
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is **0.7837130912576757**
   * A confusion matrix has been generated
   ![BalancedRandomForestClassifier_confusion_matrix](Images/BalancedRandomForestClassifier_confusion_matrix.png)
   * An imbalanced classification report has been generated
@@ -55,7 +55,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Easy Ensemble Classifier
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is **0.931601605553446**
   * A confusion matrix has been generated
   ![EasyEnsembleClassifier_confusion_matrix](Images/EasyEnsembleClassifier_confusion_matrix.png)
   * An imbalanced classification report has been generated
