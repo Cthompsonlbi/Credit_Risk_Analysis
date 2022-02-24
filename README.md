@@ -100,3 +100,7 @@ To complete this task, I will use skills learned in this module regarding Superv
   ![EEC_Imbal](Images/EEC_Imbal.png)
   
   ## Summary
+  
+  The resampling models did not generate an acceptable model. Low F1 score
+  
+  Although not terrific, The Easy Ensemble Classifier model did the best in classifying the loan status with an f1 score of
