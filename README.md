@@ -15,20 +15,23 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### RandomOverSampler
 
-  * An accuracy score for the model is calculated
+  * An accuracy score for the model is #####
   * A confusion matrix has been generated
+  ![NaiveRandomOverSampler_confusion_matrix](Images/NaiveRandomOverSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
 #### SMOTE
 
   * An accuracy score for the model is calculated
   * A confusion matrix has been generated
+  * ![SMOTEOverSampler_confusion_matrix](Images/SMOTEOverSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
 
 #### ClusterCentroids
 
   * An accuracy score for the model is calculated
   * A confusion matrix has been generated
+  ![ClusterCentroidUnderSampler_confusion_matrix](Images/ClusterCentroidUnderSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
 ### Deliverable 2
@@ -37,6 +40,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
   * An accuracy score for the model is calculated
   * A confusion matrix has been generated
+  ![SMOTEENOverUnderSampler_confusion_matrix](Images/SMOTEENOverUnderSampler_confusion_matrix.png)
   * An imbalanced classification report has been generated
  
 ### Deliverable 3
@@ -45,6 +49,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
   * An accuracy score for the model is calculated
   * A confusion matrix has been generated
+  ![BalancedRandomForestClassifier_confusion_matrix](Images/BalancedRandomForestClassifier_confusion_matrix.png)
   * An imbalanced classification report has been generated
   * The features are sorted in descending order by feature importance
 
@@ -52,4 +57,5 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
   * An accuracy score for the model is calculated
   * A confusion matrix has been generated
+  ![EasyEnsembleClassifier_confusion_matrix](Images/EasyEnsembleClassifier_confusion_matrix.png)
   * An imbalanced classification report has been generated
