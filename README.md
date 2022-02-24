@@ -86,6 +86,8 @@ To complete this task, I will use skills learned in this module regarding Superv
   ![BRFC_Imbal](Images/BRFC_Imbal.png)
   
   * The features are sorted in descending order by feature importance
+  
+  ![BRFC_Imbal](Images/BRFC_Imbal.png)
 
 #### Easy Ensemble Classifier
 
