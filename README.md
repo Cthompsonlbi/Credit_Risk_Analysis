@@ -99,8 +99,21 @@ To complete this task, I will use skills learned in this module regarding Superv
   
   ![EEC_Imbal](Images/EEC_Imbal.png)
   
-  ## Summary
+  ## Analysis Summary
   
-  The resampling models did not generate an acceptable model. Low F1 score
+Because each model appeared the be sufficient at identifying low-risk loans, I created the table below consolidating the imbalanced summary reports of each models high-risk loan results. 
   
-  Although not terrific, The Easy Ensemble Classifier model did the best in classifying the loan status with an f1 score of
+| Model          | Precision      | Recall         | F1
+| ---------------| ---------------| ---------------| ---------------
+| RandomOverSamp | .03  | .82 |.06
+| Smote | .04 | .82 |.07
+|ClusterCentroids |.02|.88 |.04
+|SMOTEEN |.03|.83 |.06
+|BalancedRandomForest |.03|.69 |.06
+|SMOTEEN |.09|.94 |.16
+
+
+
+As I mentioned above, all of the resampling models did a sufficient job of identifying loans that are considered low-risk status.  However the models struggled with identifying potentials loans that are considered high-risk. Meaning, the models struggled identifying loans that were high-risk of being paid late, or that were fraudulent or that could fall into default.  None of the resampling models provided improvment as each had a low f1 score and low precision results that ranged from .04 to .06.  The ensemble models, particularly SMOTEEN proved to be slightly better in identifying high-risk loans.  Their precision score, recall score, and f1 score were better than the resampling models.  The SMOTEEN f1 score of 16 is by far better than all of the resampling f1 scores but, .16 is still not ideal.
+
+If one has to move forward with one of these models, then the SMOTEEN would be the recommendation.  However, if more time is avaiable, perhaps going back to the dataset and reshaping the data by identifying columns that are not deemed as important to the decision making process or model creation process and remove them.  This may allow greater weight to fall upon the key components necessary to identify high-risk loans and potentialy improve the accuracy of the models.
