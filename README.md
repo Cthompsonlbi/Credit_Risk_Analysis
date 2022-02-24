@@ -3,13 +3,21 @@ Module 17 Challenge
 
 ## Overview
 
-Jill commends you for all your hard work. Piece by piece, you’ve been building up your skills in data preparation, statistical reasoning, and machine learning. You are now ready to apply machine learning to solve a real-world challenge: credit card risk.
+Jill would like for us to evaluate several models to see if we can find one that can accurately identify if a loan to a customer would be in risk of default or not.
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Because of this Jill asked me to employ different techniques to train and evaluate models with unbalanced classes. Jill asked me to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I have been requested to oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I'll need to try a combined approached of over- and undersampling using the SMOTEEN algorithm. Next, I'll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 ## Purpose
+
+To complete this task, I will use skills learned in this module regarding Supervised Machine learning.  I'll use imbalanced-learn libraries, scikit-learn libraries, Jupyter Notebook and Python to test out several algorithms and models such as :
+  * RandomOverSampler
+  * SMOTE
+  * ClusterCentroids
+  * SMOTEEN
+  * BalancedRandomForestClassifier
+  * EasyEnsembleClassifier
 
 ### Deliverable 1
 
